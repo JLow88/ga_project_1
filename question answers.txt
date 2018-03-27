@@ -1,0 +1,50 @@
+1. What is the outcome?
+determine what characteristics indicate a customer will most likely convert to paying
+
+
+2. what are the predictors / covariates?
+
+age, gender, location, profession, days since last login, activity score
+
+3. timeframe?
+jan - apr 2015
+
+4. what is the hypothesis?
+demographics of the user and usage between january and april will indicate whether a person is likely to start paying or not
+
+Data dictionary:
+
+Variable		description		type of variable
+age			integer			categorical
+gender			string			categorical
+location		string			categorical
+profession		string			categorical
+days since last login	integer			continuous
+activity score		binary			categorical
+
+
+2a. what are the assumptions?
+-data is accurate
+-responses are honest
+-no duplicate users
+
+
+2b. how will determine the distribution of data?
+- perform a "describe"
+- for each variable, define the upper and lower limits
+
+3a. how may outliers influence it?
+if the sample is low, they may introduce bias
+
+3b. how will you test for outliers?
+- check std deviation
+- box plot or similar
+
+4a. what is colinearity?
+regression of one variable can be used to accurately predict another
+
+4b. how will you test for colinearity?
+-scatter plots
+-determine correlation coefficients of different datasets
+
+5. exploratory analysis plan
